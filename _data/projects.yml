@@ -1,0 +1,28 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: To be updated very soon...
+  gh_user: foxcharm
+  repo: foxcharm
+  img: https://user-images.githubusercontent.com/124789.png
+  desc: This page will be down for maintainence till 27th of March, 2021.
+
+    # It is based on Flask and provides some calls for debugging and for calling other containers. I extended the project with Error-Codes, Sleep-Time, Header-Copy, SSH Server, ...
+
+# - name: Jekyll Theme
+#   gh_user: foxcharm
+#   repo: jekyll-uno-timeline
+#   img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
+#   desc: This Jekyll Theme. Based on the Uno-Theme with a list of projects as timeline. Like a business card.
+#
+# - name: Azure Automation Scripts
+#   gh_user: foxcharm
+#   repo: scripts
+#   img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
+#   desc: Some scripts that I used with Azure Automation. For example a VM Start/Stop script or a script for resetting a VPN tunnel.
+#
+# - name: Face API
+#   gh_user: foxcharm
+#   repo: FaceApiWPF
+#   img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
+#   desc: Using the WebCam and send continuously pictures to the Azure FaceAPI. The analyzed results like age and emotion drawn on the WebCam stream.

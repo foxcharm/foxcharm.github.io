@@ -1,0 +1,36 @@
+# Site settings
+title: Foxcharm
+description: 'Business Card Page'
+url: ''
+baseurl: ''
+profilepic: '/images/foxcharm.png'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'acc6e38b93.js'
+
+author:
+  name: 'Foxcharm'
+  email: foxcharmanalytics@gmail.com
+  twitter_username: foxcharm
+  facebook_username: ''
+  github_username:  foxcharm
+  linkedin_username:  foxcharm
+  meetup_name: ''
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
